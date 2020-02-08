@@ -1,7 +1,7 @@
 function newItem() {
-    var item = document.getElementById("input").value;
-    var ul = document.getElementById("list");
-    var li = document.createElement("li");
+    let item = document.getElementById("input").value;
+    let ul = document.getElementById("list");
+    let li = document.createElement("li");
     li.appendChild(document.createTextNode("- " + item));
     ul.appendChild(li);
     document.getElementById("input").value = "";
